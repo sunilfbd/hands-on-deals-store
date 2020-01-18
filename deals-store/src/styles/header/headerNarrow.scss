@@ -3,4 +3,36 @@
     padding: 10px 15px;
     margin-bottom: 15px;
     width: calc(100% - 30px);
+    display: flex;
+    align-items: center;
 }
+
+.logo-wrapper {
+    flex: 1;
+}
+
+.logo-img {
+    width: 225px;
+}
+
+.rc-service-menu-list {
+    display: flex;
+    text-align: right;
+}
+
+.rc-background-icn {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.rc-wishlist-icn {
+    background-image: url('../../images/wishlist.png');
+}
+
+.rc-cart-icn {
+    background-image: url('../../images/bag.png');
+}
+

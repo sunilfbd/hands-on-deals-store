@@ -14,7 +14,6 @@ class ProductList extends Component {
       <main>
         <ul>
           <li>
-
               <picture className="rc-prod-item-img-wrapper">
                 <a href="#item" className="rc-prod-item-link">
                   <img className="rc-prod-item-img" src="" alt="" />
