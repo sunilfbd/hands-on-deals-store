@@ -1,0 +1,16 @@
+@import './reset';
+@import './variables';
+@import './mixin';
+@import './core';
+
+
+// mobile related style
+@import './header/headerNarrow';
+@import './footer/footerNarrow';
+
+
+// Large devices (desktops, 992px and up)
+@media screen and (min-width: $screen-lg-min) {
+    @import './header/headerWide';
+    @import './footer/footerWide';
+}
