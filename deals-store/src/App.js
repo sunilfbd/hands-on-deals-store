@@ -5,9 +5,10 @@ import ProductList from './components/ProductList';
 
 function App() {
   return (
-    <div>
+    <div className="rc-container">
+      
       <Header />
-        <ProductList />
+      <ProductList />
       <Footer />
     </div>
   );

@@ -7,3 +7,8 @@ body {
     font-family: $base-font;
     @include font-size(1.4);
 }
+
+.rc-inner {
+    width: 1180px;
+    margin: 0 auto;
+}

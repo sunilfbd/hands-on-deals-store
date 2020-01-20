@@ -6,9 +6,9 @@ function Header() {
   return (
     <header  className="rc-header">
         <a href="#one" className="logo-wrapper">
-            <img src={logo} className="logo-img" alt="logo" />
+          <img src={logo} className="logo-img" alt="logo" />
         </a>
-       <ServiceMenu />
+        <ServiceMenu />
     </header>
   );
 }
