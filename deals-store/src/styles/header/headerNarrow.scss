@@ -1,10 +1,12 @@
 .rc-header {
     padding: 10px 15px;
     border-bottom: 1px solid #ccc;
+    margin: 10px;
     display: flex;
-    align-items: center;
-    width: 1180px;
-    margin: 50px auto 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    background-color: #f1f1f1;
 }
 
 .logo-wrapper {
@@ -12,13 +14,13 @@
 }
 
 .logo-img {
-    width: 225px;
+    width: 135px;
 }
 
 .rc-service-menu-list {
     display: flex;
     text-align: right;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 .rc-service-menu-item {

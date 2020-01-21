@@ -5,12 +5,16 @@
 
 
 // mobile related style
+@import './baseStyles/baseNarrow.scss';
 @import './header/headerNarrow';
+@import './productList/productListNarrow.scss';
 @import './footer/footerNarrow';
 
 
 // Large devices (desktops, 992px and up)
 @media screen and (min-width: $screen-lg-min) {
+    @import './baseStyles/baseWide.scss';
     @import './header/headerWide';
+    @import './productList/productListWide.scss';
     @import './footer/footerWide';
 }

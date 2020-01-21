@@ -1,0 +1,16 @@
+.rc-prod-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rc-product-list-item {
+    background-color: #fff;
+    width: calc(33% - 37px);
+    margin: 10px;
+    padding: 10px;
+
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
