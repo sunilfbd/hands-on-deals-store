@@ -5,5 +5,41 @@
     padding: 10px;
     margin: 10px;
     border: 2px solid #ccc;
+    display: flex;
 }
- 
+
+.rc-prod-item-img-wrapper {
+    margin-right: 10px;
+}
+
+.rc-prod-item-img {
+    width: 95px;
+}
+
+.rc-desc-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.rc-prod-price {
+    @include font-size(1.6);
+}
+
+.rc-prod-item-link {
+    @include font-size(1.6);
+    line-height: 1.35;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 700;
+    &:hover {
+        color: red;
+    }
+}
+
+.rc-cta-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

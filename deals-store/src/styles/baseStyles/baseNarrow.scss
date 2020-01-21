@@ -13,6 +13,11 @@
     width: 25px;
     height: 25px;
     background-size: cover;
+    margin-right: 15px;
+    
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .rc-icn-alt {
