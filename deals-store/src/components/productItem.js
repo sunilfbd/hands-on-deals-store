@@ -5,14 +5,14 @@ function ProductItem(props) {
         <li className="rc-product-list-item">
             <picture className="rc-prod-item-img-wrapper">
                 <a href={props.product.href} className="rc-prod-item-img-link">
-                    <img className="rc-prod-item-img" src={props.product.thumbnail} alt={props.product.title} />
+                    <img className="rc-prod-item-img" src={props.product.thumbnailUrl} alt={props.product.title} />
                 </a>
             </picture>
 
             <div className="rc-desc-wrapper">
                 <p className="rc-prod-item-desc">
-                    <a href={props.product.href} className="rc-prod-item-link">
-                        {props.product.company.bs}
+                    <a href={props.product.url} className="rc-prod-item-link">
+                        {props.product.title}
                     </a>
                 </p>
                 <span className="rc-prod-price">$USD 199.00</span>

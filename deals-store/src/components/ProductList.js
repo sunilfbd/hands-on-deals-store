@@ -13,7 +13,7 @@ class ProductList extends Component {
   }
 
   componentDidMount() {
-      fetch("https://jsonplaceholder.typicode.com/users")
+      fetch("https://jsonplaceholder.typicode.com/photos")
       .then(res => res.json())
       .then(result => {
           this.setState({prodList: result})
