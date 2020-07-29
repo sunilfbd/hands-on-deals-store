@@ -21,7 +21,7 @@ class ProductList extends Component {
   }
 
   render() {
-    console.log(this.state.prodList);
+    // console.log(this.state.prodList);
     return (
       <main className="rc-main-content" >
         <h1 className="rc-page-title">{this.state.prodList.title} </h1>
