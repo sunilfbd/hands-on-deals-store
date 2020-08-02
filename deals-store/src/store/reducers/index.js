@@ -5,9 +5,9 @@ import updateBasket from './updatedBasket';
 import updatedWishlist from './updateWishlist';
 
 let rootReducer = combineReducers({
-    setStateOnLoad,
-    updateBasket,
-    updatedWishlist
+    onLoad: setStateOnLoad,
+    basket: updateBasket,
+    wishlist: updatedWishlist
 });
 
 export default rootReducer;

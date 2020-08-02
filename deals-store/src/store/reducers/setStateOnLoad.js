@@ -1,8 +1,12 @@
-let initState = {};
+let initState = {
+    prodList:[]
+};
 
 const setStateOnLoad = (state=initState, action) => {
     if(action.type === 'SET_STATE') {
-        return {...state, load:'stating'}
+        return {
+            prodList: action.payload
+        }
     } 
     return state;
 }
