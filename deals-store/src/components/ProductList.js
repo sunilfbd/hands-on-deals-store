@@ -13,8 +13,6 @@ class ProductList extends Component {
   }
 
   componentDidMount() {
-      
-
       fetch("https://jsonplaceholder.typicode.com/photos")
       .then(res => res.json())
       .then(result => {
@@ -47,7 +45,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     setStateOnLoad: (resList) => dispatch(setStateOnLoad(resList))
-  } //setStateOnLoad;
+  }
 }
 
 ProductList = connect(mapStateToProps, mapDispatchToProps)(ProductList)
