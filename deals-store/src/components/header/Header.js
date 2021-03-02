@@ -4,7 +4,7 @@ import logo from '../../images/logo.png';
 
 function Header() {
   return (
-    <header  className="rc-header">
+    <header className="rc-header">
         <a href="#one" className="logo-wrapper">
           <img src={logo} className="logo-img" alt="logo" />
         </a>
