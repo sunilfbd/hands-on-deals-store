@@ -1,0 +1,14 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $base-bg;
+    font-family: $base-font;
+    @include font-size(1.4);
+}
+
+.rc-page-title {
+    font-size: 24px;
+    margin: 0 0 20px 10px;
+}
